@@ -47,3 +47,153 @@ body {
   overflow: hidden;
   transition: 0.6s ease-out;
 }
+
+.search-box i {
+  font-size: 2.5rem;
+}
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-box input {
+  color: var(--dark);
+  width: 80%;
+  font-weight: 600;
+  font-size: 2.4rem;
+  padding-left: 1rem;
+  margin: 0 1rem;
+  background-color: var(--greyLight-1);
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--greyLight-3);
+}
+.search-box input::placeholder {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.search-box button {
+  cursor: pointer;
+  width: 4.3rem;
+  height: 4.3rem;
+  background-color: var(--greyLight-3);
+  border-radius: 50%;
+  font-size: 2.2rem;
+  transition: 0.5s ease;
+}
+.search-box button:hover {
+  background-color: black;
+  color: var(--greyLight-1);
+}
+
+.not-found {
+  width: 100%;
+  text-align: center;
+  margin-top: 5rem;
+  scale: 0;
+  opacity: 0;
+  display: none;
+}
+.not-found img {
+  width: 70%;
+}
+.not-found p {
+  color: var(--error);
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+.fadeIn {
+  animation: 0.5s fadeIn forwards;
+  animation-delay: 0.5s;
+}
+@keyframes fadeIn {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+.weather-data {
+  text-align: center;
+  position: relative;
+}
+.weather-data .country {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.country .country-name {
+  margin-left: 0.5rem;
+}
+.weather-data img {
+  width: 60%;
+  margin-top: 3rem;
+}
+.weather-data .temperature {
+  position: relative;
+  color: var(--dark);
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 2rem;
+}
+.weather-data .temperature span {
+  position: absolute;
+  margin-left: 6px;
+  font-size: 1.8rem;
+}
+.weather-data .description {
+  color: var(--light-dark);
+  font-size: 2.2rem;
+  text-transform: capitalize;
+}
+.more-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.weather-data .more-info {
+  scale: 0;
+  opacity: 0;
+}
+
+.more-info .humidity,
+.more-info .wind {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.more-info .humidity {
+  padding-left: 2rem;
+  justify-content: flex-start;
+}
+.more-info .wind {
+  padding-right: 2rem;
+  justify-content: flex-start;
+}
+
+.more-info i {
+  color: var(--dark);
+  font-size: 2.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.more-info span {
+  color: var(--light-dark);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+}
+.footer p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
