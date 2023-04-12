@@ -9,3 +9,21 @@
   outline: none;
   font-family: "Lato", sans-serif;
 }
+
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+
+  --white: #ffffff;
+  --greyLight-1: #e4ebf5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+  --dark: #000000;
+  --light-dark: #1b1a1a;
+  --error: #bc0909;
+}
+html {
+  font-size: 62.5%;
+}
