@@ -13,4 +13,4 @@ Weather is sometimes difficult to predict. This accurate weather app allows to f
 <!-- [Click Here to View Live Preview](https://amanovishnu.github.io/Weather-App/index.html) -->
 
 ### Sample-Image
-![Homepage](img/screenshot.png)
+![Homepage](img/screenshot-rocks.png)
