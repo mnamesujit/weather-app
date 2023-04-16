@@ -14,3 +14,8 @@ Weather is sometimes difficult to predict. This accurate weather app allows to f
 
 ### Sample-Image
 ![Homepage](img/screenshot-rocks.png)
+
+Run in Local
+1- Fork this repo
+![Fork](https://github.com/mnamesujit/weather-app/)
+
