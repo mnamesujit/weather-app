@@ -21,4 +21,5 @@ Run in Local
 ![Fork](https://github.com/mnamesujit/weather-app/)
 
 2- Clone this repo
+
 ``` git clone https://github.com/mnamesujit/weather-app/ ```
