@@ -22,6 +22,8 @@ Run in Local
 
 2- Clone this repo
 
-``` git clone https://github.com/mnamesujit/weather-app/ ```
+```sh
+git clone https://github.com/mnamesujit/weather-app/
+```
 
 3- Open index.html file in web browser
