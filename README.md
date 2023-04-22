@@ -32,5 +32,6 @@ git clone https://github.com/mnamesujit/weather-app/
 ```sh
 cd weather-app/
 ```
+3- Write your Weather API_KEY in script.js file
 
 3- Open index.html file in web browser
