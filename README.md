@@ -12,7 +12,8 @@ Weather is sometimes difficult to predict. This accurate weather app allows to f
 - Sunrise/sunset time
 
 ### Live-Preview
-![Click Here to View Live Preview](https:// mnamesujit.github.io/weather-app/)
+
+![click for live preview](https://mnamesujit.github.io/weather-app/)
 
 ### Sample-Image
 <img src= "img/screenshot-rocks.png" width="800" />
