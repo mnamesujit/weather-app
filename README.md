@@ -38,4 +38,4 @@ cd weather-app/
 // const API_KEY = config.SECRET_API_KEY;
 ```
 
-4- Open index.html file in web browser
+4- Open index.html file in web browser ```index.html```
