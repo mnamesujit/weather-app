@@ -1,5 +1,8 @@
 const API_KEY = config.SECRET_API_KEY;
+console.log("API-KEY")
 console.log(API_KEY)
+const API_KEY2 = secrets.API_KEY
+console.log(API_KEY2)
 const container = document.querySelector(".container");
 const btn = document.querySelector(".search-box button");
 const weatherData = document.querySelector(".weather-data");
