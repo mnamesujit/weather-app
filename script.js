@@ -1,18 +1,13 @@
-const API_KEY = config.SECRET_API_KEY;
-console.log("API-KEY")
-console.log(API_KEY)
-const API_KEY2 = secrets.API_KEY
-console.log(API_KEY2)
+const API_KEY = 'db84c7f39a93a6eac948176817b03717';
+
 const container = document.querySelector(".container");
 const btn = document.querySelector(".search-box button");
 const weatherData = document.querySelector(".weather-data");
 const moreInfo = document.querySelector(".more-info");
 const errorPage = document.querySelector(".not-found");
 const search = document.querySelector(".search-box input");
-console.log(search);
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hello");
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(onSuccess, onError);
   } else {
@@ -20,10 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 function onSuccess(position) {
-  console.log(position);
   const { latitude, longitude } = position.coords;
   let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`;
-  console.log(url);
   fetchData(url);
 }
 function onError(error) {
@@ -42,7 +35,6 @@ btn.addEventListener("click", () => {
 
 const requestAPI = (city) => {
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}&units=metric`;
-  console.log(url);
   fetchData(url);
 };
 
@@ -50,13 +42,11 @@ const fetchData = (url) => {
   fetch(url)
     .then((response) => response.json())
     .then((res) => {
-      console.log(res);
       updateWeather(res);
     });
 };
 
 const updateWeather = (res) => {
-  console.log(res);
   if (res.cod === "404") {
     container.style.height = "400px";
 
